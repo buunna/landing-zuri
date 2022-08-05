@@ -174,11 +174,12 @@ button{
      line-height: 20px;   
     text-align: left;
 }
- #socials>a{
-   width: 20px;
-   display: flex;
-   margin: 0 auto;
 
+
+ #socials>a>img{
+   width: 20px;
+   margin: 0 auto;
+   flex-direction: column;
 }
 footer>p{
     font-family: Georgia, 'Times New Roman', Times, serif;
